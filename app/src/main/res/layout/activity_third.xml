@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Harmadik Activity"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:gravity="center"/>
 
     <Button
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/buttonBack"
         android:text="Vissza a menübe"
-        android:textSize="30dp"
+        android:textSize="30sp"
         />
 
 </LinearLayout>
