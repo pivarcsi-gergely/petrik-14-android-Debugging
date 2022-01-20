@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textViewName"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:gravity="center"/>
 
     <LinearLayout
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/buttonNext"
             android:text="Következő Activity"
-            android:textSize="30dp"
+            android:textSize="30sp"
             />
 
         <Button
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/buttonNameChange"
             android:text="Név változtatás"
-            android:textSize="30dp"
+            android:textSize="30sp"
             />
 
         <Button
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/buttonInformation"
             android:text="Információ"
-            android:textSize="30dp"
+            android:textSize="30sp"
             />
 
         <Button
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/buttonExit"
             android:text="Kilépés"
-            android:textSize="30dp"
+            android:textSize="30sp"
             />
 
 

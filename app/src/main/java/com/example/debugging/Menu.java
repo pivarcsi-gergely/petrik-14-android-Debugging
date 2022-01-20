@@ -39,7 +39,7 @@ public class Menu extends AppCompatActivity implements View.OnClickListener{
     {
         buttonExit = findViewById(R.id.buttonExit);
         buttonInformation = findViewById(R.id.buttonInformation);
-        buttonNameChange = findViewById(R.id.buttonBack);
+        buttonNameChange = findViewById(R.id.buttonNameChange);
         buttonNext = findViewById(R.id.buttonNext);
         textViewName = findViewById(R.id.textViewName);
 
@@ -53,7 +53,7 @@ public class Menu extends AppCompatActivity implements View.OnClickListener{
         alertDialogBuilder.setPositiveButton("Nem", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(Menu.this, "Nem zártad be az alkalmazás!",
+                Toast.makeText(Menu.this, "Nem zártad be az alkalmazást!",
                         Toast.LENGTH_SHORT).show();
             }
         });
