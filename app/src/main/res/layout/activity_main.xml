@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_gravity="center"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ird be a neved:"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:gravity="center"/>
 
     <EditText
@@ -20,8 +21,10 @@
         android:id="@+id/editTextName"
         android:layout_marginTop="30dp"
         android:hint="A neved"
-        android:textSize="30dp"
-        android:textAlignment="center"/>
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:autofillHints="name"
+        android:inputType="textPersonName" />
 
     <Button
         android:layout_width="match_parent"
@@ -29,6 +32,6 @@
         android:id="@+id/buttonBelepes"
         android:layout_marginTop="50dp"
         android:text="Belépés"
-        android:textSize="30dp"/>
+        android:textSize="30sp"/>
 
 </LinearLayout>
